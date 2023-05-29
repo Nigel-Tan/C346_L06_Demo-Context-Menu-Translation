@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         registerForContextMenu(tvTranslatedText);
         registerForContextMenu(tvTranslatedText2);
     }
-    
+
     @Override
     public void onCreateContextMenu(ContextMenu menu, View v,
                                     ContextMenu.ContextMenuInfo menuInfo) {

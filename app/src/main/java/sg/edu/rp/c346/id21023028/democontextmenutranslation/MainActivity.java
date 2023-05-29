@@ -48,13 +48,13 @@ public class MainActivity extends AppCompatActivity {
             if(item.getItemId()==0) { //check whether the selected menu item ID is 0
                 //code for action
                 Toast.makeText(MainActivity.this, "English is chosen", Toast.LENGTH_SHORT).show();
-                tvTranslatedText.setText("Hello");
+                tvTranslatedText.setText(R.string.hello);
                 return true; //menu item successfully handled
             }
             else if(item.getItemId()==1) { //check if the selected menu item ID is 1
                 //code for action
                 Toast.makeText(MainActivity.this, "Italian is chosen", Toast.LENGTH_SHORT).show();
-                tvTranslatedText.setText("Ciao");
+                tvTranslatedText.setText(R.string.ciao);
                 return true;  //menu item successfully handled
             }
         }
@@ -62,13 +62,13 @@ public class MainActivity extends AppCompatActivity {
             if(item.getItemId()==0) { //check whether the selected menu item ID is 0
                 //code for action
                 Toast.makeText(MainActivity.this, "English is chosen", Toast.LENGTH_SHORT).show();
-                tvTranslatedText2.setText("Bye");
+                tvTranslatedText2.setText(R.string.bye);
                 return true; //menu item successfully handled
             }
             else if(item.getItemId()==1) { //check if the selected menu item ID is 1
                 //code for action
                 Toast.makeText(MainActivity.this, "Italian is chosen", Toast.LENGTH_SHORT).show();
-                tvTranslatedText2.setText("Addio");
+                tvTranslatedText2.setText(R.string.addio);
                 return true;  //menu item successfully handled
             }
         }
